@@ -1,0 +1,78 @@
+body{
+    height: 100vh;
+    background-image: url('pediatria.avif');
+    font-family: 'Poppins', sans-serif; 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    max-width: 500px;
+    backdrop-filter:  blur(7px);
+    border-radius: 67px;
+    padding: 30px;
+    border: 1px, solid rgba(233, 233, 233, 0.3);
+    background-color: rgb(255, 255, 255, 0.3);
+}
+
+.paba{
+    background-color: rgba(240, 171, 173, 0.219);
+    border-radius: 40px;
+    border: 1px, solid rgba(255, 255, 255, 0.3);
+}
+
+.titulo{
+    font-weight: 600;
+}
+
+label{
+    font-weight: 440;
+    font-size: larger;
+}
+
+.by{
+    border-radius: 30px;
+    background-color: black;
+    border: none;
+    transition:  all 0.3s ease-in-out;
+}
+
+.by:hover{
+    scale: 1.07;
+    background-color: rgb(0, 0, 97);
+    color: aliceblue;
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.menor{
+    background-color: rgba(black);
+    border-radius: 40px;
+    backdrop-filter: blur(7px);
+}
+
+input{
+    border-radius: 15px;
+    border: none;
+    background-color: rgba(240, 171, 173, 0.336);
+    transition: all 0.3s ease-in-out;
+    outline: none;
+}
+
+input:hover{
+    background-color: rgba(240, 171, 173, 0.658);
+}
+
+input:focus{
+    background-color: rgba(180, 209, 211, 0);
+    color: white;
+}
+
+::-webkit-input-placeholder{
+    color: rgba(0, 0, 0, 0.6);
+}
